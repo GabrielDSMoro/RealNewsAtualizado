@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Página Inicial - Real News</title>
+</head>
+<body>
+<h1>Bem vindo ao portal de notícias Real News!</h1>
+<br>
+<p> Aqui você fica sabendo da verdade a todo minuto</p>
+<br>
+<button onclick="window.location.href = 'addnews.html'">Adicionar Notícia</button><br>
+
+<form action="Controller.do" method="post">
+<input type="hidden" name="command" value="ListaNoticia">
+<button type="submit">Ver Notícias</button><br>
+</form>
+
+<button onclick="window.location.href = 'updtnews.html'">Editar Notícia</button><br>
+<button onclick="window.location.href = 'deletenews.html'">Deletar Notícia</button><br>
+</body>
+</html>
